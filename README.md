@@ -13,6 +13,19 @@ Yes for:
 No for:
 - import alias (@/*)
 
+To CSS with Tailwind:
+- `npx shadcn-ui@latest init`
+    - TypeScript? Yes
+    - Style: Default
+    - base color: Slate
+    - global CSS: change to *src/app/globals.css*
+    - CSS variables? Yes
+    - Change *tailwind.config.js* to *tailwind.config.ts*
+    - components: stay with *@/components*
+    - utils: stay with *@/lib/utils*
+    - React Server Components? Yes
+    - Write configuration to components.json? Yes
+
 <!-- To clear database, type *flushall* on the **Upstash CLI**. -->
 
 <!-- For button?:
